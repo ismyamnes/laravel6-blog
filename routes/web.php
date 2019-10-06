@@ -18,5 +18,5 @@ Route::get('/', function () {
 
 
 Route::get('about', function () {
-    return 'Ini halaman about';
+    return view('about');
 });
