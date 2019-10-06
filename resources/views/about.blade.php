@@ -1,2 +1,4 @@
-<h1>About</h1>
-<p>Ini halaman about</p>
+<div class="starter-template">
+    <h1>About</h1>
+    <p class="lead">Ini halaman about</p>
+  </div>
