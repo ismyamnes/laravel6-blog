@@ -24,3 +24,8 @@ Route::get('about', function () {
 Route::get ('contact', function() {
     return view('contact');
 });
+
+
+Route::get ('home', function() {
+    return view('home');
+});
