@@ -21,11 +21,13 @@ Route::get('about', function () {
     return view('about');
 });
 
-Route::get ('contact', function() {
+Route::get('contact', function () {
     return view('contact');
 });
 
+Route::get('photos', 'PhotoController@index');
+Route::get('photos/{id}', 'PhotoController@show');
 
-Route::get ('home', function() {
+Route::get('home', function () {
     return view('home');
 });
