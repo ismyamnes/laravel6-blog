@@ -16,6 +16,8 @@ class PhotoController extends Controller
 
     public function show($id)
     {
-        return view('photos.show', ['id' => $id]);
+        $photo = Photo::findOrFail($id);
+
+        return view('photos.show', ['photo' => $photo]);
     }
 }
