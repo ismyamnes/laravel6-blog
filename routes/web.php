@@ -27,6 +27,7 @@ Route::get('contact', function () {
 
 Route::get('photos', 'PhotoController@index')->name('photos.index');
 Route::get('photos/{id}', 'PhotoController@show')->name('photos.show');
+Route::post('photos/{id}/comment', 'PhotoController@storeComment')->name('photos.storeComment');
 
 Route::get('home', function () {
     return view('home');

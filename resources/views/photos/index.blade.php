@@ -13,7 +13,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                         <a href="{{ route('photos.show', $photo->id) }}"
-                            class="btn btn-sm btn-outline-secondary">View</a>
+                          class="btn btn-sm btn-outline-secondary">View</a>
                     </div>
                 <small class="text-muted">{{ $photo->created_at->diffForHumans()}}</small>
                 </div>
